@@ -1,4 +1,4 @@
-import {BookIcon} from '@sanity/icons/Book'
+import {BookIcon} from '@sanity/icons'
 import {defineArrayMember, defineField, defineType} from 'sanity'
 
 export const course = defineType({

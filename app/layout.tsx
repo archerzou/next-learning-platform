@@ -2,6 +2,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { PostHogUserIdentifier } from "@/components/posthog/posthog-user-identifier";
+import { SanityLive } from "@/sanity/lib/live";
 import "./globals.css";
 
 const inter = Inter({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <ClerkProvider>
           <PostHogUserIdentifier />
           {children}
+          <SanityLive />
         </ClerkProvider>
       </body>
     </html>

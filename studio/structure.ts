@@ -1,8 +1,4 @@
-import {BookIcon} from '@sanity/icons/Book'
-import {DocumentVideoIcon} from '@sanity/icons/DocumentVideo'
-import {PlayIcon} from '@sanity/icons/Play'
-import {TagIcon} from '@sanity/icons/Tag'
-import {UserIcon} from '@sanity/icons/User'
+import {BookIcon, DocumentVideoIcon, PlayIcon, TagIcon, UserIcon} from '@sanity/icons'
 import type {StructureResolver} from 'sanity/structure'
 
 export const structure: StructureResolver = (S) =>

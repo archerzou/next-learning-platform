@@ -1,4 +1,4 @@
-import {DocumentPdfIcon} from '@sanity/icons/DocumentPdf'
+import {DocumentPdfIcon} from '@sanity/icons'
 import {defineField, defineType} from 'sanity'
 
 /** A downloadable or linked resource attached to a lesson. */
