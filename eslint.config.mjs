@@ -12,6 +12,14 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored skill reference bundles — not part of the app.
+    "agent/**",
+    ".agents/**",
+    ".claude/**",
+    // Standalone Sanity Studio workspace — has its own toolchain.
+    "studio/**",
+    // TypeGen output.
+    "sanity.types.ts",
   ]),
 ]);
 
