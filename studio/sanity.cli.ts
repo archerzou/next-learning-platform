@@ -4,9 +4,7 @@ import {dataset, projectId} from './env'
 
 export default defineCliConfig({
   api: {projectId, dataset},
-  // Pinned so `sanity deploy` never prompts for the application id. The Sanity Context MCP only
-  // serves a dataset that has a deployed Studio application (AGENTS.md §12).
-  deployment: {appId: 'mrjcnjp9ok9z3nrm4s2letk0'},
+  deployment: {appId: 'o624q3q2ma6u0bvaf0amifqq'},
   typegen: {
     enabled: true,
     // Queries live in the Next.js app one level up.
